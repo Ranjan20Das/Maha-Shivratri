@@ -57,20 +57,20 @@ A beautiful and interactive **Lord Shiva devotional website** built to celebrate
 ```bash
 git clone https://github.com/Ranjan20Das/Maha_Shivratri.git
 cd Maha_Shivratri/client
+
 Install Dependencies
-Bash
-Copy code
 npm install
+
 Development Mode
-Bash
-Copy code
 npm run dev
+
 Open your browser at http://localhost:5173�
+
 Production Build
-Bash
-Copy code
 npm run build
 This creates a dist folder ready for deployment.
+
+
 ⚡ Deployment Instructions
 Using Vercel
 Log in to Vercel�.
@@ -80,11 +80,7 @@ Install Command: npm install
 Build Command: npm run build
 Output Directory: dist
 Deploy
-Using Netlify
-Drag and drop the dist folder in Netlify dashboard OR
-Connect GitHub repo and configure:
-Build Command: npm run build
-Publish Directory: dist
+
 📂 Project Structure
 Copy code
 
@@ -101,10 +97,13 @@ Maha_Shivratri/
 │  ├─ package.json
 │  └─ vite.config.js
 └─ README.md
+
+
 🎵 Audio Files Hosted on Cloudinary
 Home Page: Audio 1� (8 MB)
 Mantra Page: Audio 2� (9.47 MB)
 Gallery Page: Audio 3� (10 MB)
+
 
 🖼 Gallery - 12 Jyotirlingas
 Somnath – Gir Somnath, Gujarat
@@ -119,11 +118,17 @@ Baidyanath – Deoghar, Jharkhand
 Nageshwar – Dwarka, Gujarat
 Ramanathaswamy – Rameshwaram, Tamil Nadu
 Grishneshwar – Aurangabad, Maharashtra
+
+
 📜 License
 This project is open source and free to use for personal or educational purposes.
+made by - Ranjan Das || B.TECH CSE(AIML) Student
+Backend Devloper || Cloud , Cyber Security , AIML Enthusiast
+note:- My all victories are belong to God, My all losses are mine alone.
 🙏 Acknowledgements
 React� – Frontend Library
 Vite� – Development Build Tool
 Framer Motion� – Animations
 Tailwind CSS� – Styling
 Cloudinary� – Audio Hosting
+vercel� - Web Hosting
