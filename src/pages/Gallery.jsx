@@ -1,5 +1,7 @@
 import { motion } from "framer-motion"
 import { useState, useRef } from "react"
+import React from "react";
+
 
 import somnath from "../assets/images/somnath.jpg"
 import mallikarjuna from "../assets/images/mallikarjuna.jpg"
