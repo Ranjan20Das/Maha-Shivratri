@@ -1,16 +1,129 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🔱 MahaShivratri - Lord Shiva Devotional Website 🔱
 
-Currently, two official plugins are available:
+![MahaShivratri Banner](./src/assets/images/image1.jpg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A beautiful and interactive **Lord Shiva devotional website** built to celebrate **Maha Shivratri**. Explore Jyotirlingas, listen to Maha Mrityunjaya Mantra, and enjoy stunning 3D OM visuals and temple galleries.
 
-## React Compiler
+---
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🌐 View Live on Vercel- https://maha-shivratri-flax.vercel.app/
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌟 Features
+
+- **Home Page**: 
+  - Happy Maha Shivratri greeting
+  - Devotional image
+  - Play/Pause **Om Mantra** (Audio 1)
+
+- **Mantra Page**:
+  - Full Maha Mrityunjaya Mantra lyrics displayed line by line
+  - 3D rotating OM symbols on left and right
+  - Audio playback for the mantra (Audio 2)
+  - Mouse-controlled and self-rotating OM animations
+
+- **Gallery Page**:
+  - **12 Jyotirlingas of Lord Shiva** with images, locations, and brief descriptions
+  - Full-screen image preview on click
+  - Audio playback for gallery background chants (Audio 3)
+
+- **Responsive Design**: Works beautifully on desktop and mobile devices.
+
+- **Eye-catching Animations**:
+  - Framer Motion for hover effects
+  - Smooth scaling, fading, and rotating 3D effects
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend**: React 18 + Vite
+- **Routing**: React Router DOM
+- **Animations**: Framer Motion
+- **Styling**: Tailwind CSS
+- **Deployment**: Vercel / Netlify
+- **Audio Hosting**: Cloudinary (for large audio files)
+
+---
+
+
+---
+
+## 💻 Project Setup
+
+### Clone the Repository
+```bash
+git clone https://github.com/Ranjan20Das/Maha_Shivratri.git
+cd Maha_Shivratri/client
+Install Dependencies
+Bash
+Copy code
+npm install
+Development Mode
+Bash
+Copy code
+npm run dev
+Open your browser at http://localhost:5173�
+Production Build
+Bash
+Copy code
+npm run build
+This creates a dist folder ready for deployment.
+⚡ Deployment Instructions
+Using Vercel
+Log in to Vercel�.
+Import the GitHub repository.
+Root Directory: client
+Install Command: npm install
+Build Command: npm run build
+Output Directory: dist
+Deploy
+Using Netlify
+Drag and drop the dist folder in Netlify dashboard OR
+Connect GitHub repo and configure:
+Build Command: npm run build
+Publish Directory: dist
+📂 Project Structure
+Copy code
+
+Maha_Shivratri/
+├─ client/
+│  ├─ src/
+│  │  ├─ assets/
+│  │  │  ├─ images/          # All temple and devotional images
+│  │  │  ├─ audio/           # Audio1, Audio2, Audio3 hosted on Cloudinary
+│  │  ├─ components/         # Header, Footer, Navbar, etc.
+│  │  ├─ pages/              # Home.jsx, Mantra.jsx, Gallery.jsx
+│  │  ├─ App.jsx
+│  │  └─ main.jsx
+│  ├─ package.json
+│  └─ vite.config.js
+└─ README.md
+🎵 Audio Files Hosted on Cloudinary
+Home Page: Audio 1� (8 MB)
+Mantra Page: Audio 2� (9.47 MB)
+Gallery Page: Audio 3� (10 MB)
+
+🖼 Gallery - 12 Jyotirlingas
+Somnath – Gir Somnath, Gujarat
+Mallikarjuna – Srisailam, Andhra Pradesh
+Mahakaleshwar – Ujjain, Madhya Pradesh
+Omkareshwar – Khandwa, Madhya Pradesh
+Kedarnath – Kedarnath, Uttarakhand
+Bhimashankar – Pune, Maharashtra
+Kashi Vishwanath – Varanasi, Uttar Pradesh
+Trimbakeshwar – Nashik, Maharashtra
+Baidyanath – Deoghar, Jharkhand
+Nageshwar – Dwarka, Gujarat
+Ramanathaswamy – Rameshwaram, Tamil Nadu
+Grishneshwar – Aurangabad, Maharashtra
+📜 License
+This project is open source and free to use for personal or educational purposes.
+🙏 Acknowledgements
+React� – Frontend Library
+Vite� – Development Build Tool
+Framer Motion� – Animations
+Tailwind CSS� – Styling
+Cloudinary� – Audio Hosting
