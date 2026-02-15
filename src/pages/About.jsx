@@ -1,4 +1,6 @@
 import { motion } from "framer-motion"
+import React from "react";
+
 import image2 from "../assets/images/image2.jpeg"
 
 function About() {
