@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect } from "react"
 import { motion, useMotionValue } from "framer-motion"
+import React from "react";
 
 function Mantra() {
 
